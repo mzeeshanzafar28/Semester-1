@@ -1,0 +1,11 @@
+i=1
+sum=0
+sign=1
+sign2=-1
+n = int(input("Enter the value of n : "))
+while i<=n:
+    sum=sum+sign*(i+sign2*(i+1))
+    sign=sign*(-1)
+    sign2=sign2*(-1)
+    i=i+1
+print ("sum = ",sum)
